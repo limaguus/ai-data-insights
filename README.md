@@ -1,53 +1,83 @@
-#AI Data Insights
+# AI Data Insights
 
-Projeto de análise de dados de vendas com Python, focado em gerar insights de negócio a partir de dados reais.
+Projeto de análise de dados de vendas com geração automática de insights.
 
-#Objetivo
-Analisar dados de vendas para identificar padrões, produtos mais rentáveis e oportunidades de crescimento.
+---
 
-#Tecnologias utilizadas
+## Objetivo
 
--Python
--Pandas
--Matplotlib
--Google Colab
+Analisar dados de vendas e gerar insights de forma automatizada para apoiar a tomada de decisão.
 
-#Base de dados
-Dataset simples de vendas contendo:
+---
 
-Data
-Produto
-Categoria
-Quantidade
-Preço
-Receita
+## Tecnologias
 
-#Análises realizadas
+- Python  
+- Pandas  
+- Matplotlib  
+- Google Colab  
 
-Faturamento total
-Ticket médio
-Receita por produto
-Receita por categoria
-Identificação dos itens mais vendidos
+---
 
-#Visualizações
+## Funcionalidades
 
-Gráfico de barras mostrando receita por categoria
+- Leitura de dados em CSV  
+- Cálculo de métricas de negócio  
+- Análise de produtos e categorias  
+- Visualização com gráficos  
+- Geração automática de insights  
 
-#Principais insights
+---
 
--A categoria Eletrônicos apresentou a maior receita
--O produto Monitor foi o principal responsável pelo faturamento
--A categoria Roupas teve maior volume, porém menor ticket médio
--Existe oportunidade de aumentar o valor médio das vendas em roupas
+## Base de dados
 
-#Como executar o projeto
+O dataset contém:
 
-Clone o repositório
-Abra o arquivo analysis.ipynb no Google Colab
-Execute as células em ordem
-Visualize os resultados e insights
+- date  
+- product  
+- category  
+- quantity  
+- price  
+- revenue  
 
-Resultado
+---
 
-Este projeto demonstra a aplicação de análise de dados para gerar insights de negócio e apoiar a tomada de decisão.
+## Análises realizadas
+
+- Faturamento total  
+- Ticket médio  
+- Receita por produto  
+- Receita por categoria  
+
+---
+
+## Insights gerados automaticamente
+
+O projeto inclui uma função que analisa os dados e gera insights como:
+
+- Produto com maior receita  
+- Categoria mais relevante  
+- Comparação de desempenho entre categorias  
+- Oportunidades de crescimento  
+
+---
+
+## Como executar
+
+1. Abra o arquivo `analysis.ipynb` no Google Colab  
+2. Execute todas as células  
+3. Visualize os resultados e insights gerados automaticamente  
+
+---
+
+## Resultado
+
+Este projeto demonstra a capacidade de analisar dados e automatizar a geração de insights, aproximando o processo de análise ao uso de inteligência artificial.
+
+---
+
+## Próximos passos
+
+- Integração com API de IA  
+- Criação de dashboard interativo  
+- Upload de dados pelo usuário  
